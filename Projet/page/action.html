@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="../css/style.css" rel="stylesheet">
+        <script src="../script/scriptdiapoaction.js"></script>
+        <title>Les actions et évenements de l'AEOB</title>
+    </head>
+    <body onload="showImage(0)">
+        <ul id="navigation">
+            <li><img src="../img/AEOB_logo.png" alt="logo" id="logo"></li>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="action.html">Les actions et évenements de l'AEOB</a></li>
+            <li><a href="partenaire.html">Les partenaires de l'AEOB</a></li>
+            <li><a href="UFRodontologie.html">L'UFR Odontologie</a></li>
+            <li><a href="inscription.html">Adhésion</a></li>
+          </ul>
+        <h1 id="titre_secondaire">Les actions et évenements de l'AEOB</h1>
+        <div id="corps">
+            <div id="ARAME">
+                <div id="text_ARAME">
+                    <p>L'AEOB soutient l'association ARAME dans le cadre du projet DENTAMAIN organisé par l'UNECD.</p>
+                    <p>L’ARAME (pour Association Régionale d’Actions Médicales et sociales pour les Enfants atteints d’affections malignes) est une association caritative directement basée à l’hôpital de Strasbourg.</p>
+                    <p>Sa mission principale consiste à améliorer le quotidien des enfants atteints de cancer et de maladies du sang. La médecine progressant en permanence, de plus en plus d’enfants guérissent, mais les traitements à supporter sont toujours et encore particulièrement pénibles, avec des effets secondaires parfois très désagréables.</p>
+                    <p>C’est là que l’association intervient, en essayant d’apporter un peu de joie, de légèreté et de soutien dans ce difficile parcours. Les missions de l’ARAME s’orientent sur 3 axes :</p>
+                    <ul>
+                        <li>Les enfants : jouets, décorations du service, intervenants extérieurs, voyages…</li>
+                        <li>Les familles : aides financières aux familles aux revenus modestes</li>
+                        <li>L’hôpital : financement d’un poste d’infirmière, de matériels de soin, de mobilier…</li>
+                    </ul>
+                </div>
+                <div id="diapo_action">
+                    <div class="slides">
+                        <img src="../img/ARAME.png" alt="img1" style="width:100%">
+                    </div>
+            
+                    <div class="slides">
+                        <img src="../img/affiche_journee_monde.png" alt="img2" style="width:100%">
+                    </div>
+            
+                    <div class="slides">
+                        <img src="../img/gardezlesourire.png" alt="img3" style="width:100%">
+                    </div>
+            
+                    <div class="slides">
+                        <img src="../img/gardezlesourire2.png" alt="img4" style="width:100%">
+                    </div>
+
+                    <div id="control">
+                        <input type="submit" onclick="nextSlide(-1)" value="Previous">
+                        <button type="button" onclick="showImage(0)"><img src="../img/ARAME.png" alt="img1" style="width:100%"></button>
+                        <button type="button" onclick="showImage(1)"><img src="../img/affiche_journee_monde.png" alt="img2" style="width:100%"></button>
+                        <button type="button" onclick="showImage(2)"><img src="../img/gardezlesourire.png" alt="img3" style="width:100%"></button>
+                        <button type="button" onclick="showImage(3)"><img src="../img/gardezlesourire2.png" alt="img4" style="width:100%"></button>
+                        <input type="submit" onclick="nextSlide(1)" value="Next">
+                    </div>
+                  </div>
+            </div>
+        </div>
+          
+        <footer>
+            <a href="https://www.facebook.com/AEOBcorpo/?ref=br_rs">facebook</a>
+            <a href="https://www.instagram.com/aeobbrest/">instagram</a>
+        </footer>
+    </body>
+</html>

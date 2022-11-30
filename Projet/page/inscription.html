@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <link href="../css/style.css" rel="stylesheet">
+            <script src="../script/scriptcalcu.js"></script>
+            <script src="../script/scriptformulaire.js"></script>
+            <script src="../script/scriptxml.js"></script>
+            <title>Site de l'AEOB</title>
+    </head>
+    <body>
+        <ul id="navigation">
+            <li><img src="../img/AEOB_logo.png" alt="logo" id="logo"></li>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="action.html">Les actions et évenements de l'AEOB</a></li>
+            <li><a href="partenaire.html">Les partenaires de l'AEOB</a></li>
+            <li><a href="UFRodontologie.html">L'UFR Odontologie</a></li>
+            <li><a href="inscription.html">Adhésion</a></li>
+        </ul>
+        <h1 id="titre_secondaire">Formumlaire adhésion</h1>
+        <div id="corps">
+            <div id="formulaire">
+                <form action="" method="get">
+                    <div id="ligneform"><label>Nom : </label><input type="text" id="nom" placeholder="Nimme"></div>
+                    <div id="ligneform"><label>Prenom : </label><input type="text" id="prenom" placeholder="Jean-Filipe"></div>
+                    <div id="ligneform"><label>Numéro étudiant : </label><input type="number" id="numetu" placeholder="e22222222"></div>
+                    <div id="ligneform"><label>Adresse mail : </label><input type="email" id="mail" placeholder="jean-filipe.nimme@etudiant.univ-brest.fr"></div>
+                    <button onclick="formulaire()">Envoyer</button>
+                </form>               
+            </div>
+            <div id="calcu">
+                <input type="text" id="n1" value="2">
+                <input type="text" id="n2" value="2">
+                <button onclick="addition()">+</button>
+                <button onclick="subtraction()">-</button>
+                <button onclick="multiplication()">*</button>
+                <button onclick="division()">/</button>
+                <input type="text" id="result" readonly>
+            </div>
+            <div id="BDDContainer">
+                <button type="button" onclick="loadXMLDoc()">Adhérent De Obi1</button>
+                <button type="button" onclick="addBook()">Add</button>
+                <button type="button" onclick="saveBook()" id="btnSave">Save</button>
+                <br><br>
+                <table id="data"></table>
+                <br><br>
+                <table id="tblBook" style="display: none;">
+                    <tr>
+                        <td>Nom</td>
+                        <td><input type="text" size="50" id="txtTitle"></td> 
+                    </tr>
+                    <tr>
+                        <td>Prenom</td>
+                        <td><input type="text" size="50" id="txtAuthor"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="hidden" id="hId"></td>
+                        <td><button type="button" onclick="updateBook()" id="btnUpdate">Update</button>
+                            <button type="button" onclick="add()" id="btnadd">Add</button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <footer tabindex="-1">
+        <a href="https://www.facebook.com/AEOBcorpo/?ref=br_rs">facebook</a>
+        <a href="https://www.instagram.com/aeobbrest/">instagram</a>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,163 @@
+@font-face {
+    font-family: Comfortaa-regular;
+    src: url(Comfortaa-Regular.ttf);
+}
+@font-face {
+    font-family: Comfortaa-light;
+    src: url(Comfortaa-Light.ttf);
+}
+@font-face {
+    font-family: Comfortaa-bold;
+    src: url(Comfortaa-Bold.ttf);
+}
+
+body
+{
+    background-image: url(../img/background.svg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Comfortaa-regular;
+    max-width: 100%;
+    margin-right: 100px;
+    margin-left: 100px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#navigation
+{
+    font-family: Comfortaa-bold;
+    width: 95%;
+    list-style-type: none;
+    display: flex;
+    justify-content : space-around;    
+    align-items: center;
+    font-size: 22px;
+}
+
+a
+{
+    text-decoration:none;
+    color:black;    
+}
+a:hover
+{
+    text-decoration:none;
+    color: rgb(255, 169, 249);
+}
+
+#logo
+{
+    width: 100 px;
+    height: 85px;
+}
+
+p
+{
+    font-size: 20px;
+}
+
+li
+{
+    font-size: 20px;
+}
+
+#corps
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#info_index
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#Localisation
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#p_map
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#ARAME
+{
+    display: flex;
+    align-items: center;
+}
+
+#text_ARAME
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+footer
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+#diapo_index {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 1%;
+}
+
+#diapo_index img
+{
+    width: 100%;
+    height: auto;
+}
+
+#slides {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#control {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+#tableau_part
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#formulaire
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#ligneform
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2%;
+}
