@@ -2,22 +2,22 @@
 <group>
 	<adherent>
 		<ID>1</ID>
-		<nom>ZARAGOSA</nom>
-		<prenom>Yoann</prenom>
+		<nom>QUENTEL</nom>
+		<prenom>Enora</prenom>
 	</adherent>
 	<adherent>
 		<ID>2</ID>
-		<nom>MINNE</nom>
-		<prenom>Ewenn</prenom>
+		<nom>RAYMOND</nom>
+		<prenom>Elise</prenom>
 	</adherent>
 	<adherent>
 		<ID>3</ID>
-		<nom>BONALY</nom>
-		<prenom>David</prenom>
+		<nom>LE GOVIC</nom>
+		<prenom>Jeanne</prenom>
 	</adherent>
 	<adherent>
 		<ID>4</ID>
-		<nom>EON</nom>
-		<prenom>Youenn</prenom>
+		<nom>BOUALEM</nom>
+		<prenom>Sarah</prenom>
 	</adherent>
 </group>
