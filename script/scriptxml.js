@@ -123,4 +123,17 @@ function add(){
 
     let id_Text = xmlDoc.createTextNode(books.length+1);
     id.appendChild(id_Text);
-    let NewTitle = txtTitle.value;}
+    let NewTitle = txtTitle.value;
+    let title_Text = xmlDoc.createTextNode(NewTitle);
+        title.appendChild(title_Text);
+        let NewAuthor = txtAuthor.value;
+        let author_Text = xmlDoc.createTextNode(NewAuthor);
+        author.appendChild(author_Text);
+        book.append(id);
+        book.appendChild(title);
+        book.appendChild(author);
+        let group = xmlDoc.getElementsByTagName("group")[0];
+        group.appendChild(book);
+
+         fetchData();
+}
