@@ -24,7 +24,7 @@
                     <div id="ligneform"><label>Prenom : </label><input type="text" id="prenom" placeholder="Jean-Filipe"></div>
                     <div id="ligneform"><label>Numéro étudiant : </label><input type="number" id="numetu" placeholder="e22222222"></div>
                     <div id="ligneform"><label>Adresse mail : </label><input type="email" id="mail" placeholder="jean-filipe.nimme@etudiant.univ-brest.fr"></div>
-                    <div id="ligneform"><label>Annales : </label><input type="checkbox" id="annales" onchange="prix()"><label>Event : </label><input type="checkbox" id="event" onchange="prix()"></div>
+                    <div id="ligneform"><label>Annales : </label><a onclick="prix()"><input type="checkbox" id="annales"></a><label>Event : </label><a onclick="prix()"><input type="checkbox" id="event"></a></div>
                     <div id="ligneform"><input type="number" readonly id="prix"></div>
                     <div id="ligneform"><button onclick="formulaire()">Envoyer</button></div>
                 </form>               
